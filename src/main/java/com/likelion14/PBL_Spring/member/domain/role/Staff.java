@@ -24,4 +24,6 @@ public class Staff extends Role{
 
     @Override
     public String roleName() { return "운영진"; }
+
+    public String getPosition() { return position; }
 }

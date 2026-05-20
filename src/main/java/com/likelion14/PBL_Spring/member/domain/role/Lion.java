@@ -25,4 +25,6 @@ public class Lion extends Role
 
     @Override
     public String roleName() { return "아기사자"; }
+
+    public String getStudentId() { return Snum; }
 }
